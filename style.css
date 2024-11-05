@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "DR";
+  src: url(static/fonts/Dracutaz.otf);
+}
+
+body {
+  background-image: url(static/images/images.jfif);
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+video {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+header {
+  z-index: 7777;
+  font-size: 48px;
+  position: absolute;
+  left: 70px;
+  bottom: 250px;
+  font-family: "DR";
+}
+h1 {
+  background: -webkit-linear-gradient(red 30%, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+a{
+font-size: 60px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+position: absolute;
+z-index: 1;
+top: 400px;
+left: 460px;
+color: darkred;
+text-decoration: none;
+height: 210px;
+}
+a:hover{
+  transition: 1s ease-in;
+  color: blue;
+  background-image: url(static/images/Без\ названия.jfif);
+  background-size: 100% 100%;
+}
+a:active{
+  transition: 0.1s;
+  background-image: url(static/images/images\ \(2\).jfif);
+  color: purple;
+}
